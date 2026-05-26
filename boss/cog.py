@@ -25,9 +25,9 @@ log = logging.getLogger("ballsdex.packages.boss")
 Interaction = discord.Interaction["BallsDexBot"]
 
 # Configuration constants
-SHINYBUFFS = [1000,1000] # Shiny Buffs
+SHINYBUFFS = [20000,20000] # Shiny Buffs
 # ATK, HP
-MAXSTATS = [20000,20000] # Max stats a card is limited to (before buffs)
+MAXSTATS = [40000,40000] # Max stats a card is limited to (before buffs)
 # ATK, HP
 DAMAGERNG = [0,2000] # Damage a boss can deal IF attack_amount has NOT been inputted in /boss admin attack.
 # Min Damage, Max Damage
